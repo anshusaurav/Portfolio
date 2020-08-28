@@ -50,15 +50,16 @@ $(document).ready(function () {
                 'The one of the best HISTORY search and clean tool for your Chromebook, Windows PC, Mac or Linux. ChromeX is easy to use. Completely made in Javascript which supports one click removal of chrome history.',
             link: 'https://chrome.google.com/webstore/detail/chrome-x/goaifllkmmcjkekjdlkjofoiiebmfljg'
         },
-        never: {
-            title: 'NeverSurrender',
-            tag: 'ALS AWARENESS.',
+        mastrplannr: {
+            title: 'Mastr Plannr',
+            tag: 'WEBSITE FOR EVENT MANAGEMENT COMPANY',
             detail:
-                'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
+                'MastrPlannr is a website for event management company. At MastrPlannr, we can arrange the A to Z of any event. Be it marriages, birthdays, private parties, corporate events and social gatherings.',
+            link: 'https://anshusaurav.github.io/Real-Event-Planner/'
         },
-        themall: {
-            title: 'The Mall',
-            tag: 'PEER GUIDED SHOPPING.',
+        heropedia: {
+            title: 'Heropedia',
+            tag: 'DOTA 2 HEROPEDIA',
             detail:
                 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.'
         }
