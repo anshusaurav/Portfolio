@@ -61,7 +61,8 @@ $(document).ready(function () {
             title: 'Heropedia',
             tag: 'DOTA 2 HEROPEDIA',
             detail:
-                'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.'
+                "Heroes are the essential element of Dota 2, as the course of the match is dependent on their intervention. During a match, two opposing teams select five out of 119 heroes that accumulate experience and gold to grow stronger and gain new abilities in order to destroy the opponent's Ancient. ",
+            link: 'https://anshusaurav.github.io/Dota-2-Heropedia/'
         }
     };
 
