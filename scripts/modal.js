@@ -26,27 +26,29 @@ $(document).ready(function () {
             title: 'Bookstore App - Pustaka',
             tag: 'E-COMMERCE PLATFORM FOR BOOKS',
             detail:
-                'Pustaka provides consists of the buying or selling of books via electronic means. ',
+                'Pustaka consists of the buying or selling of books via electronic means integrated with Razor-Pay for handling electronic transactions via Debit/Credit Cards, Netbanking and more  ',
             link: 'https://github.com/anshusaurav/Mongo-Node-Express-BookStoreApp-with-EJS'
         },
-        walker: {
-            title: 'WalkerTracker',
-            tag: 'PERFORMANCE METRICS.',
+        scrabble: {
+            title: 'Scrabble-Go',
+            tag: 'TWO PLAYER SCRABBLE GAME',
             detail:
-                'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.'
+                'Scrabble is a word game in which two to four players score points by placing tiles, each bearing a single letter, onto a game board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to right in rows or downward in columns, and be included in a standard dictionary or lexicon.',
+            link: 'https://scrabblego.netlify.app/'
         },
-        powur: {
-            title: 'Powur.com',
-            tag: 'CONSUMER POWERED MARKETING.',
+        platformgame: {
+            title: 'Platform Game',
+            tag: 'VIDEO GAME SIMILAR TO GOOD OLD MARIO',
             detail:
-                'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-            link: 'http://www.powur.com/with/42'
+                'Small plarform game which is both entertaining and minimalist.',
+            link: 'https://platform-game-mario.netlify.app/'
         },
-        mystand: {
-            title: 'MyStand',
-            tag: 'CROWD-FUNDED CHARITY.',
+        chromex: {
+            title: 'Chrome-X',
+            tag: 'A CHROME EXTENSION',
             detail:
-                'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.'
+                'The one of the best HISTORY search and clean tool for your Chromebook, Windows PC, Mac or Linux. ChromeX is easy to use. Completely made in Javascript which supports one click removal of chrome history.',
+            link: 'https://chrome.google.com/webstore/detail/chrome-x/goaifllkmmcjkekjdlkjofoiiebmfljg'
         },
         never: {
             title: 'NeverSurrender',
