@@ -1,33 +1,33 @@
 $(document).ready(function () {
     // MODAL
     var modalText = {
-        discover: {
-            title: 'ChowNow Discover',
-            tag: 'FOOD ORDERING PLATFORM.',
+        trello: {
+            title: 'Trello Clone',
+            tag: 'WEB-BASED KANBAN-STYLE LIST-MAKING APPLICATION.',
             detail:
-                'ChowNow Discover is a platform that lets customers discover new local restaurants and provides business owners with tools to convert first time orders into lifelong diners.',
-            link: 'https://eat.chownow.com/'
+                'Users can create their task boards with different columns and move the tasks between them. Typically columns include task statuses such as To Do, In Progress, Done.',
+            link: 'https://trello-clone-mern.netlify.app'
         },
-        ordering: {
-            title: 'ChowNow Ordering Web',
-            tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
+        instagram: {
+            title: 'Instagram Clone',
+            tag: 'MULTIMEDIA SHARING SOCIAL NETWORKING SERVICE.',
             detail:
-                'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-            link: 'https://direct.chownow.com/direct/195/locations/260'
+                "The app allows users to upload media that can be organized by hashtags and location.Users can upload photographs and short videos, follow other users' feeds.",
+            link: 'https://github.com/anshusaurav/Photo-App-Frontend'
         },
-        newrelic: {
-            title: 'NewRelic.com',
-            tag: 'APPLICATION PERFORMANCE MONITORING.',
+        medium: {
+            title: 'Medium Clone',
+            tag: 'ONLINE PUBLISHING PLATFORM.',
             detail:
-                'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-            link: 'http://www.newrelic.com'
+                'A Social publishing platform that is open to all and home to a diverse array of stories, ideas, and perspectives.',
+            link: 'https://github.com/anshusaurav/Medium-Clone-EJS'
         },
-        roambi: {
-            title: 'Roambi.com',
-            tag: 'BUSINESS ANALYTICS.',
+        bookstore: {
+            title: 'Bookstore App - Pustaka',
+            tag: 'E-COMMERCE PLATFORM FOR BOOKS',
             detail:
-                'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-            link: 'http://www.roambi.com'
+                'Pustaka provides consists of the buying or selling of books via electronic means. ',
+            link: 'https://github.com/anshusaurav/Mongo-Node-Express-BookStoreApp-with-EJS'
         },
         walker: {
             title: 'WalkerTracker',
