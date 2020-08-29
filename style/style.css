@@ -148,7 +148,7 @@ body {
 }
 
 .canvas {
-  background: url("../img/filler.png") center center/contain no-repeat;
+  /* background: url("../img/filler.png") center center/contain no-repeat; */
   height: 100%;
   left: 0;
   position: absolute;
@@ -1240,7 +1240,9 @@ footer .footnote .highlight {
   .button {
     font-size: 16pt;
   }
-
+  .labelform {
+    display: none;
+  }
   .flex.row-gt-sm {
     flex-direction: row;
   }
@@ -1291,5 +1293,3 @@ footer .footnote .highlight {
     width: 270px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
