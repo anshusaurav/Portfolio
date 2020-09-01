@@ -40,7 +40,7 @@ $(document).ready(function () {
             title: 'Platform Game',
             tag: 'VIDEO GAME SIMILAR TO GOOD OLD MARIO',
             detail:
-                'Small plarform game which is both entertaining and minimalist.',
+                'Small platform game which is both entertaining and minimalist.',
             link: 'https://platform-game-mario.netlify.app/'
         },
         chromex: {
