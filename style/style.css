@@ -10,7 +10,7 @@
   font-family: "Raleway-bold";
   src: url("../fonts/Raleway-Bold.ttf");
 } */
-@font-face {
+/* @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -31,7 +31,7 @@
   font-weight: 400;
   src: local("Raleway-bold"), local("Raleway-bold"),
     url("../fonts/Raleway-Bold.ttf") format("ttf");
-}
+} */
 /* 
 @font-face {
   font-family: "Roboto";
@@ -151,6 +151,7 @@ a {
   text-decoration: none;
 }
 
+html.fonts-loaded,
 body {
   color: #fff;
   font-family: "Raleway";
@@ -205,7 +206,8 @@ body {
 }
 
 .bold {
-  font-family: "Raleway-bold";
+  font-family: "Raleway";
+  font-weight: 500;
 }
 
 .flex {
@@ -262,9 +264,11 @@ body {
   color: #e31b6d;
 }
 
-.header {
+.header,
+.header html.fonts-loaded {
   color: #444649;
-  font-family: "raleway-bold";
+  font-family: "Raleway";
+  font-weight: 500;
   font-size: 25pt;
   position: relative;
   position: relative;
@@ -443,7 +447,8 @@ nav .active {
   padding: 15px 10px 85px 10px;
 }
 .modal-wrap .title {
-  font-family: "Raleway-bold";
+  font-family: "Raleway";
+  font-weight: 500;
   font-size: 16pt;
   line-height: 20pt;
 }
@@ -451,7 +456,7 @@ nav .active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color: #c0c0c0;
   display: block;
-  font-family: "Raleway-bold";
+  font-family: "Raleway";
   font-size: 8pt;
   font-weight: 300;
   padding-bottom: 15px;
@@ -522,7 +527,7 @@ section:nth-of-type(1) {
   padding: 0 10px;
 }
 section:nth-of-type(1) .highlight {
-  font-family: "Raleway-semibold";
+  font-family: "Raleway";
 }
 section:nth-of-type(1) .text {
   font-size: 16pt;
