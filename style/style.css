@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-Regular.ttf");
 }
@@ -9,7 +9,38 @@
 @font-face {
   font-family: "Raleway-bold";
   src: url("../fonts/Raleway-Bold.ttf");
+} */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway Regular"), local("Raleway-Regular"),
+    url("../fonts/Raleway-Regular.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: "Raleway-semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway-semibold"), local("Raleway-semibold"),
+    url("../fonts/Raleway-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Raleway-bold";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway-bold"), local("Raleway-bold"),
+    url("../fonts/Raleway-Bold.ttf") format("ttf");
+}
+/* 
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2)
+      format("woff2");
+} */
 @keyframes fadeIn {
   100% {
     opacity: 1;
@@ -300,7 +331,7 @@ nav .link-wrap div:first-child {
   padding: 25px 20px 12px 20px;
 }
 nav .link-wrap div:hover {
-  color: #e31b6d;
+  color: #f6a0c3;
 }
 nav .mdi-menu {
   font-size: 30pt;
@@ -1097,7 +1128,7 @@ footer .footnote .highlight {
     padding: 12px 50px 12px 20px;
   }
   section:nth-of-type(1) .button .mdi {
-    top: 16px;
+    top: 12px;
   }
   section:nth-of-type(2) .label-wrap .label {
     margin: 15px 0 5px 0;
