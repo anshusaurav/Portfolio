@@ -446,6 +446,10 @@ nav .active {
   color: #444;
   padding: 15px 10px 85px 10px;
 }
+.info-box a {
+  cursor: default;
+  color: #fff;
+}
 .modal-wrap .title {
   font-family: "Raleway";
   font-weight: 500;
@@ -996,9 +1000,14 @@ footer .icon-wrap .icon {
   transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
   width: 55px;
 }
+
 footer .icon-wrap .mdi {
   color: #fff;
   text-align: center;
+}
+.icon-wrap a {
+  color: #1b242f;
+  cursor: default;
 }
 footer .icon-wrap .mdi.mdi-codepen {
   font-size: 20pt;
@@ -1277,7 +1286,9 @@ footer .footnote .highlight {
     font-size: 16pt;
   }
   .labelform {
-    float: left;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
     /* display: none; */
   }
   .flex.row-gt-sm {
