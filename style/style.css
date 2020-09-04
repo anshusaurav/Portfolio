@@ -513,7 +513,7 @@ nav .active {
 }
 
 section {
-  color: #616161;
+  color: #313131;
   line-height: 11pt;
   padding: 70px 0 70px 0;
   position: relative;
@@ -657,7 +657,7 @@ section:nth-of-type(2) .bar .tag {
   position: absolute;
   top: 0;
   background-color: #04c2c9;
-  color: #fff;
+  color: #2d2d2d;
   height: 100%;
   width: 110px;
   width: 70px;
@@ -881,7 +881,7 @@ section:nth-of-type(4) .text {
   max-height: 85px;
 }
 section:nth-of-type(5) {
-  background: #252934;
+  background: #0c0c0c;
   color: #fff;
   padding-top: 175px;
 }
@@ -1033,7 +1033,7 @@ footer .footnote {
   opacity: 0.6;
 }
 footer .footnote .highlight {
-  color: #e31b6d;
+  color: #ffffff;
   font-family: "Open Sans";
 }
 
