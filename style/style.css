@@ -790,7 +790,7 @@ section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
   background: url("../img/thumb-11.webp") center center/contain no-repeat;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url("../img/thumb-12.webp ") center center/contain no-repeat;
+  background: url("../img/thumb-12.webp") center center/contain no-repeat;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
@@ -835,16 +835,16 @@ section:nth-of-type(4) .blog-wrap {
   width: 100%;
 }
 section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("../img/blog-1.png") center center/contain no-repeat;
+  background: url("../img/blog-1.webp") center center/contain no-repeat;
 }
 section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("../img/blog-2.png") center center/contain no-repeat;
+  background: url("../img/blog-2.webp") center center/contain no-repeat;
 }
 section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("../img/blog-3.png") center center/contain no-repeat;
+  background: url("../img/blog-3.webp") center center/contain no-repeat;
 }
 section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("../img/blog-4.png") center center/contain no-repeat;
+  background: url("../img/blog-4.webp") center center/contain no-repeat;
 }
 section:nth-of-type(4) .blog-wrap .fade-wrap {
   transition: opacity 0.3s;
