@@ -57,12 +57,12 @@ $(document).ready(function () {
                 'MastrPlannr is a website for event management company. At MastrPlannr, we can arrange the A to Z of any event. Be it marriages, birthdays, private parties, corporate events and social gatherings.',
             link: 'https://anshusaurav.github.io/Real-Event-Planner/'
         },
-        heropedia: {
-            title: 'Heropedia',
-            tag: 'DOTA 2 HEROPEDIA',
+        pupbot: {
+            title: 'Pupbot',
+            tag: 'Run asynchronous standups on Slack',
             detail:
-                "Heroes are the essential element of Dota 2, as the course of the match is dependent on their intervention. During a match, two opposing teams select five out of 119 heroes that accumulate experience and gold to grow stronger and gain new abilities in order to destroy the opponent's Ancient. ",
-            link: 'https://anshusaurav.github.io/Dota-2-Heropedia/'
+                "Automate standups, surveys, and daily reports. To schedule your report,set the time and the days you would like the report to take place so Pupbot knows when to ask questions to your team.",
+            link: 'https://pupbot.netlify.app'
         }
     };
 
