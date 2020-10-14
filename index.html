@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <title>Anshu Saurabh</title>
-
+    <!-- in your header -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes"
@@ -138,7 +142,45 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"
       defer
     ></script>
+    <style>
+      .tooltip {
+        position: relative;
+        display: inline-block;
+      }
 
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
     <!-- LOCAL -->
     <script src="scripts/pt.min.js"></script>
     <script src="scripts/index.js" defer></script>
@@ -326,7 +368,199 @@
               class="flex flex-50-gt-sm waypoint bars-wrap"
               data-animation="slide-in-right"
             >
-              <div class="bar flex">
+              <h2 class="label bold">Skills</h2>
+              <div
+                style="
+                  display: grid;
+                  grid-template-columns: repeat(4, 1fr);
+                  grid-template-rows: repeat(4, 96px);
+                  place-self: center;
+                "
+              >
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/14758df13e2b9c312a5b911d3bb8b7418f7a8c3c/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667"
+                    alt="javascript"
+                    width="60"
+                    height="60"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">Javascript</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/2371fc4408ce813db5e1b6e153e3bb4f211702a6/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667"
+                    alt="java"
+                    width="60"
+                    height="60"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">Java</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/48502e7f558cf5956a16ddc87e5ab1294e6dd6aa/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6e6f64656a732f6e6f64656a732d6f726967696e616c2d776f72646d61726b2e737667"
+                    alt="nodejs"
+                    width="60"
+                    height="60"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">NodeJS</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/4683d18a4a9f845dd7de377a6915dcfc9739a661/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f72656163742f72656163742d6f726967696e616c2d776f72646d61726b2e737667"
+                    alt="react"
+                    width="60"
+                    height="60"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">ReactJS</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/edcd96aac28a5420a0309f3cc307c7ee436e59e1/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f72656475782f72656475782d6f726967696e616c2e737667"
+                    alt="redux"
+                    width="60"
+                    height="60"
+                    title="Redux"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/redux/redux-original.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">Redux</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    alt="redux"
+                    width="60"
+                    height="60"
+                    title="GraphQL"
+                    src="https://img.icons8.com/color/48/000000/graphql.png"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">GraphQL</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/eaac62a970d1d8e326a6137b99515071b698ee38/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6d6f6e676f64622f6d6f6e676f64622d6f726967696e616c2d776f72646d61726b2e737667"
+                    alt="mongodb"
+                    width="60"
+                    height="60"
+                    title="MongoDB"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/mongodb/mongodb-original-wordmark.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">MongoDB</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/912b3c635b0c0c198c68114f038ecc28a17728e7/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6d7973716c2f6d7973716c2d6f726967696e616c2d776f72646d61726b2e737667"
+                    alt="mysql"
+                    width="60"
+                    height="60"
+                    title="Mysql"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">Mysql</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    alt="PostgreSQL"
+                    width="60"
+                    height="60"
+                    title="PostgreSQL"
+                    src="https://img.icons8.com/color/48/000000/postgreesql.png"
+                  />
+                  <span class="tooltiptext">PostgreSQL</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/b2e5188fd861a0ebfe793b413a8e9b818d57abee/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f736173732f736173732d6f726967696e616c2e737667"
+                    alt="sass"
+                    width="60"
+                    height="60"
+                    title="SASS"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/sass/sass-original.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">SASS</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    alt="SemanticUI"
+                    width="60"
+                    height="60"
+                    title="SemanticUI"
+                    src="https://react.semantic-ui.com/logo.png"
+                  />
+                  <span class="tooltiptext">Semantic UI</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    alt="TailwindCSS"
+                    width="60"
+                    height="60"
+                    title="TailwindCSS"
+                    src="https://tailwindcss.com/apple-touch-icon.png"
+                  />
+                  <span class="tooltiptext">Tailwind CSS</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/8a3b291f03f6a44f1231bc094833809eaf59fc68/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f616d617a6f6e77656273657276696365732f616d617a6f6e77656273657276696365732d6f726967696e616c2d776f72646d61726b2e737667"
+                    alt="aws"
+                    width="60"
+                    height="60"
+                    title="AWS"
+                    data-canonical-src="https://devicons.github.io/devicon/devicon.git/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">AWS</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://camo.githubusercontent.com/cfdbcaa9abd0103840c2b3befdc02f8d8e842f75/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676f6f676c655f636c6f75642f676f6f676c655f636c6f75642d69636f6e2e737667"
+                    alt="gcp"
+                    width="60"
+                    height="60"
+                    title="GCP"
+                    data-canonical-src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">GCP</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://img.icons8.com/color/48/000000/git.png"
+                    alt="git"
+                    width="60"
+                    height="60"
+                    title="Git"
+                    data-canonical-src="https://img.icons8.com/color/48/000000/git.png"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">Git</span>
+                </div>
+                <div class="tooltip">
+                  <img
+                    src="https://img.icons8.com/material-sharp/24/000000/github.png"
+                    alt="Github"
+                    width="60"
+                    height="60"
+                    title="Github"
+                    data-canonical-src="https://img.icons8.com/material-sharp/24/000000/github.png"
+                    style="max-width: 100%"
+                  />
+                  <span class="tooltiptext">Github</span>
+                </div>
+              </div>
+
+              <!-- <div class="bar flex">
                 <div class="bar fill" style="width: 90%">
                   <div class="tag bold flex">CSS</div>
                 </div>
@@ -387,7 +621,7 @@
                   <div class="tag bold flex">SASS</div>
                 </div>
                 <span>70%</span>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

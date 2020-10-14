@@ -1,6 +1,13 @@
 $(document).ready(function () {
     // MODAL
     var modalText = {
+        pupbot: {
+            title: 'Pupbot',
+            tag: 'Run asynchronous standups on Slack',
+            detail:
+                "Automate standups, surveys, and daily reports. To schedule your report,set the time and the days you would like the report to take place so Pupbot knows when to ask questions to your team.",
+            link: 'https://pupbot.netlify.app'
+        },
         trello: {
             title: 'Trello Clone',
             tag: 'WEB-BASED KANBAN-STYLE LIST-MAKING APPLICATION.',
@@ -57,13 +64,7 @@ $(document).ready(function () {
                 'MastrPlannr is a website for event management company. At MastrPlannr, we can arrange the A to Z of any event. Be it marriages, birthdays, private parties, corporate events and social gatherings.',
             link: 'https://anshusaurav.github.io/Real-Event-Planner/'
         },
-        pupbot: {
-            title: 'Pupbot',
-            tag: 'Run asynchronous standups on Slack',
-            detail:
-                "Automate standups, surveys, and daily reports. To schedule your report,set the time and the days you would like the report to take place so Pupbot knows when to ask questions to your team.",
-            link: 'https://pupbot.netlify.app'
-        }
+        
     };
 
     $('#gallery .button').on('click', function () {
